@@ -3,7 +3,7 @@ const bodyBcg = document.querySelector('body'); // selectam body
 
 const colors = ['yellow','red','green', '#3b5998']; // creare Array culori
 
-colorBtn.addEventListener('click',changeColor); // click event 
+colorBtn.addEventListener('click',changeColor); // cclick event 
 
 function changeColor () {
     // bodyBcg.style.backgroundColor = colors[2]; // index[2]
