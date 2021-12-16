@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh; /*  (vh)  A percentage of the full viewport height. 10vh will resolve to 10% of the current viewport height. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorBtn {
+    padding: 0.25rem 0.5rem; /*vertical - orizontal*/
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    color: #fefefe;
+    background: rgba(0,0,0,0.6);
+    font-size: 0.85rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+.colorBtn:hover{
+    background: rgb(0,0,0);
+}
